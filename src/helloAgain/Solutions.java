@@ -55,6 +55,7 @@ public class Solutions {
         }
         return helps(prices, fee, 0, 1, arr);
     }
+    //Memoization
 
     public int helps(int[] prices, int fee, int index, int point,int[][] memo ){
         if(index==prices.length)
